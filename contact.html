@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Jackson Photography</title>
+</head>
+<div id="container">
+
+    <body>
+        <header>
+
+            <div class="grid-container">
+                <menu class="signature">
+                    <li><a href="home.html">
+                            <img alt="signature" src="image/JacksonSignature.png">
+                        </a></li>
+                </menu>
+                <menu class="menu">
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </menu>
+
+            </div>
+        </header>
+        <main>
+            <h1>
+                CONTACT
+
+            </h1>
+            <div class="contact-container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="Finland">Finland</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+                    <input type="submit" value="Send" onclick="myFunction()">
+                    <script>
+                        function myFunction() {
+                            alert("Thank you for your message");
+                        }
+                    </script>
+                </form>
+            </div>
+
+        </main>
+
+    </body>
+    <div class="footer">
+        <h3>FOLLOW </h3>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+
+    </div>
+</div>
